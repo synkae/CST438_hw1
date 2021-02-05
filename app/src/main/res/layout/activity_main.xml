@@ -7,4 +7,32 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="WELCOME" />
+    <TextView
+        android:id="@+id/tvUserID"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="userID:" />
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="ID:" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Body:" />
 </LinearLayout>
